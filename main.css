@@ -101,7 +101,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.8rem;
-    background-image: url(/icons/facebook-svgrepo-com.svg);
+    background-image: url(icons/facebook-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -111,7 +111,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.8rem;
-    background-image: url(/icons/linkedin-svgrepo-com.svg);
+    background-image: url(icons/linkedin-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -121,7 +121,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.8rem;
-    background-image: url(/icons/github-svgrepo-com.svg);
+    background-image: url(icons/github-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
