@@ -35,7 +35,7 @@ navigator.serviceWorker.ready.then(function (registration) {
 
 
 // Importa a biblioteca web-push-libs
-import { generateVAPIDKeys } from 'web-push-libs';
+import { generateVAPIDKeys, sendNotification, getVapidHeaders } from 'web-push-libs';
 
 // Gera as chaves VAPID
 const { publicKey, privateKey } = generateVAPIDKeys();
