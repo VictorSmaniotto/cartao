@@ -25,3 +25,27 @@ self.addEventListener('fetch', function(){
         })
     );
 });
+
+self.addEventListener('push', function(event) {
+    console.log('Push notification received', event);
+    
+    if (event.data) {
+    showNotification(event.data.text());
+    } else {
+    console.log('Push notification did not contain any data');
+    }
+    });
+
+
+function showNotification(message) {
+
+    self.registration.showNotification('Push Notification', {
+      
+        body: message,
+      
+        icon: './icons/hashtag_icon_250751.ico'
+      
+     });
+      
+}
+
